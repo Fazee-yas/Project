@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: segoe UI;
+}
+.container{
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    margin-left: 10%;
+}
+.padd{
+    padding: 20px;
+}
+.header{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.cards{
+    width: 100%;
+    background-color: hotpink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.card{
+    height: 300px;
+    width: 18%;
+    background-color: indigo;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-size: cover;
+}
+.overlay{
+    height: 300px;
+    width:100% ;
+    background-color: indigo ;
+}
+.opened{
+    display: none;
+    
+}
